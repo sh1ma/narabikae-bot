@@ -6,7 +6,7 @@ class Echo(Cog):
         self.bot = bot
 
     @Cog.listener()
-    async def on_ready(self):
+    async def on_ready(self) -> None:
         print("起動しました！")
 
 

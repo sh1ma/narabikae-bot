@@ -1,6 +1,6 @@
 from discord.ext import commands
 
-INITIAL_COGS = ["cogs.ready", "cogs.hello"]
+INITIAL_COGS = ["cogs.ready", "cogs.sort"]
 
 
 class Robot(commands.Bot):
