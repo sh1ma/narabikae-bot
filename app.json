@@ -1,0 +1,15 @@
+{
+    "name": "Discord.py テンプレ装備",
+    "description": "Discord.pyでbot作るテンプレ",
+    "repository": "https://github.com/sh1ma/discord-bot-template",
+    "keywords": [
+        "discord",
+        "bot",
+        "python"
+    ],
+    "env": {
+        "DISCORD_TOKEN": {
+            "description": "Discord botのtokenをここに貼る"
+        }
+    }
+}
