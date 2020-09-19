@@ -6,7 +6,7 @@ class Narabikae(Cog):
         self.bot = bot
 
     @Cog.listener()
-    async def narabikae(self, ctx: Context) -> None:
+    async def on_message(self, ctx: Context) -> None:
         await ctx.channel.edit(position=0)
 
 
